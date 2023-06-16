@@ -23,7 +23,7 @@ public class C08_AtmProject {
 
         String sifre = input.nextLine();
 
-        while (count > 0) {
+        while (count > 0) {//
             if (sifre.equals(password)) {
                 anaMenu(); // sifre dogru ise ana menuye yonlendirir .
                 break;
